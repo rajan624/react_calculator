@@ -1,0 +1,81 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../image/neom-s6g6ZSxM3kQ-unsplash.jpg");
+}
+.calculatorDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    height: 75vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.buttonDiv{
+ width: 40vw;
+    height: auto;
+   
+}
+
+.resultDiv{
+    background-color: gray;
+    color: white;
+    width: 40vw;
+    height: 20vh;
+}
+
+.buttonBlue{
+    width: 10vw;
+    height: 5vw;
+     font-weight: 400;
+    font-size: 2rem;
+    color: blue;
+    border: 1px solid blue;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonBlue:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonZero{
+    width: 20vw;
+    height: 5vw;
+    font-size: 2rem;
+    color: blue;
+    border: 1px solid blue;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonZero:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonYellow{
+    width: 10vw;
+    height: 5vw;
+    font-size: 2rem;
+    color: yellow;
+    border: 1px solid yellow;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttonYellow:hover{
+    color: gray;
+    background-color: yellow;
+    border: 1px solid yellow;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
