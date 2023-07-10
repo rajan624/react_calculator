@@ -10,8 +10,6 @@ function Calculator() {
         let value = event.target.textContent;
         let currentValue = equation;
         if (value === "+/-") {
-            currentValue = currentValue* -1;
-            setEquation(currentValue);
             setResult((tempValue) => tempValue * -1)
             return;
         }
